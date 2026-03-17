@@ -1,0 +1,32 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AVVI Properties Logo</title>
+  <desc id="desc">Circular AVVI Properties emblem in green, maroon, and gold.</desc>
+  <defs>
+    <radialGradient id="outerRing" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 360) rotate(90) scale(290)">
+      <stop stop-color="#E21836" />
+      <stop offset="1" stop-color="#650012" />
+    </radialGradient>
+    <radialGradient id="coreGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 300) rotate(90) scale(140)">
+      <stop stop-color="#DFFFF6" />
+      <stop offset="1" stop-color="#8AE8C8" />
+    </radialGradient>
+    <linearGradient id="goldAccent" x1="260" y1="210" x2="460" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD873" />
+      <stop offset="1" stop-color="#CC8600" />
+    </linearGradient>
+    <filter id="softShadow" x="0" y="0" width="720" height="720" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#35000A" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <circle cx="360" cy="360" r="286" fill="url(#outerRing)" stroke="#D6D6D6" stroke-width="4" />
+    <circle cx="360" cy="360" r="210" fill="white" />
+    <circle cx="360" cy="300" r="130" fill="url(#coreGlow)" stroke="#E9FFF8" stroke-width="6" />
+    <path d="M312 370C326 334 346 304 360 282C374 304 394 334 408 370" stroke="url(#goldAccent)" stroke-width="14" stroke-linecap="round" />
+    <path d="M274 402C303 422 334 434 360 438C386 434 417 422 446 402" stroke="url(#goldAccent)" stroke-width="18" stroke-linecap="round" />
+    <circle cx="360" cy="250" r="38" fill="url(#goldAccent)" />
+    <text x="360" y="307" text-anchor="middle" font-size="58" font-family="Cinzel, Georgia, serif" font-weight="700" fill="#176B17" letter-spacing="4">AVVI</text>
+    <text x="360" y="364" text-anchor="middle" font-size="24" font-family="Plus Jakarta Sans, Arial, sans-serif" font-weight="700" fill="#5E0012" letter-spacing="2">PROPERTIES</text>
+  </g>
+</svg>
