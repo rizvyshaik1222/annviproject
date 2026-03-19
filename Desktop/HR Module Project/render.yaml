@@ -1,0 +1,8 @@
+services:
+  - type: static
+    name: annvi-hr-system
+    staticPublishPath: ./frontend/dist
+    buildCommand: cd frontend && npm install && npm run build
+    envVars:
+      - key: NODE_ENV
+        value: production
